@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAEADCD2983F2A000F69C6A /* BrownfieldFabioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEADCC2983F2A000F69C6A /* BrownfieldFabioAppApp.swift */; };
+		BCAEADCF2983F2A000F69C6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEADCE2983F2A000F69C6A /* ContentView.swift */; };
+		BCAEADD12983F2A100F69C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAEADD02983F2A100F69C6A /* Assets.xcassets */; };
+		BCAEADD42983F2A100F69C6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAEADD32983F2A100F69C6A /* Preview Assets.xcassets */; };
+		BCAEADDE2983F2A100F69C6A /* BrownfieldFabioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEADDD2983F2A100F69C6A /* BrownfieldFabioAppTests.swift */; };
+		BCAEADE82983F2A100F69C6A /* BrownfieldFabioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEADE72983F2A100F69C6A /* BrownfieldFabioAppUITests.swift */; };
+		BCAEADEA2983F2A100F69C6A /* BrownfieldFabioAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAEADE92983F2A100F69C6A /* BrownfieldFabioAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAEADDA2983F2A100F69C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAEADC12983F2A000F69C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAEADC82983F2A000F69C6A;
+			remoteInfo = BrownfieldFabioApp;
+		};
+		BCAEADE42983F2A100F69C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAEADC12983F2A000F69C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAEADC82983F2A000F69C6A;
+			remoteInfo = BrownfieldFabioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAEADC92983F2A000F69C6A /* BrownfieldFabioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrownfieldFabioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAEADCC2983F2A000F69C6A /* BrownfieldFabioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownfieldFabioAppApp.swift; sourceTree = "<group>"; };
+		BCAEADCE2983F2A000F69C6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCAEADD02983F2A100F69C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAEADD32983F2A100F69C6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCAEADD92983F2A100F69C6A /* BrownfieldFabioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrownfieldFabioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAEADDD2983F2A100F69C6A /* BrownfieldFabioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownfieldFabioAppTests.swift; sourceTree = "<group>"; };
+		BCAEADE32983F2A100F69C6A /* BrownfieldFabioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrownfieldFabioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAEADE72983F2A100F69C6A /* BrownfieldFabioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownfieldFabioAppUITests.swift; sourceTree = "<group>"; };
+		BCAEADE92983F2A100F69C6A /* BrownfieldFabioAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownfieldFabioAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAEADC62983F2A000F69C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAEADD62983F2A100F69C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAEADE02983F2A100F69C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAEADC02983F2A000F69C6A = {
+			isa = PBXGroup;
+			children = (
+				BCAEADCB2983F2A000F69C6A /* BrownfieldFabioApp */,
+				BCAEADDC2983F2A100F69C6A /* BrownfieldFabioAppTests */,
+				BCAEADE62983F2A100F69C6A /* BrownfieldFabioAppUITests */,
+				BCAEADCA2983F2A000F69C6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAEADCA2983F2A000F69C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAEADC92983F2A000F69C6A /* BrownfieldFabioApp.app */,
+				BCAEADD92983F2A100F69C6A /* BrownfieldFabioAppTests.xctest */,
+				BCAEADE32983F2A100F69C6A /* BrownfieldFabioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAEADCB2983F2A000F69C6A /* BrownfieldFabioApp */ = {
+			isa = PBXGroup;
+			children = (
+				BCAEADCC2983F2A000F69C6A /* BrownfieldFabioAppApp.swift */,
+				BCAEADCE2983F2A000F69C6A /* ContentView.swift */,
+				BCAEADD02983F2A100F69C6A /* Assets.xcassets */,
+				BCAEADD22983F2A100F69C6A /* Preview Content */,
+			);
+			path = BrownfieldFabioApp;
+			sourceTree = "<group>";
+		};
+		BCAEADD22983F2A100F69C6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCAEADD32983F2A100F69C6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCAEADDC2983F2A100F69C6A /* BrownfieldFabioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAEADDD2983F2A100F69C6A /* BrownfieldFabioAppTests.swift */,
+			);
+			path = BrownfieldFabioAppTests;
+			sourceTree = "<group>";
+		};
+		BCAEADE62983F2A100F69C6A /* BrownfieldFabioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAEADE72983F2A100F69C6A /* BrownfieldFabioAppUITests.swift */,
+				BCAEADE92983F2A100F69C6A /* BrownfieldFabioAppUITestsLaunchTests.swift */,
+			);
+			path = BrownfieldFabioAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAEADC82983F2A000F69C6A /* BrownfieldFabioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAEADED2983F2A100F69C6A /* Build configuration list for PBXNativeTarget "BrownfieldFabioApp" */;
+			buildPhases = (
+				BCAEADC52983F2A000F69C6A /* Sources */,
+				BCAEADC62983F2A000F69C6A /* Frameworks */,
+				BCAEADC72983F2A000F69C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrownfieldFabioApp;
+			productName = BrownfieldFabioApp;
+			productReference = BCAEADC92983F2A000F69C6A /* BrownfieldFabioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAEADD82983F2A100F69C6A /* BrownfieldFabioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAEADF02983F2A100F69C6A /* Build configuration list for PBXNativeTarget "BrownfieldFabioAppTests" */;
+			buildPhases = (
+				BCAEADD52983F2A100F69C6A /* Sources */,
+				BCAEADD62983F2A100F69C6A /* Frameworks */,
+				BCAEADD72983F2A100F69C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAEADDB2983F2A100F69C6A /* PBXTargetDependency */,
+			);
+			name = BrownfieldFabioAppTests;
+			productName = BrownfieldFabioAppTests;
+			productReference = BCAEADD92983F2A100F69C6A /* BrownfieldFabioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCAEADE22983F2A100F69C6A /* BrownfieldFabioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAEADF32983F2A100F69C6A /* Build configuration list for PBXNativeTarget "BrownfieldFabioAppUITests" */;
+			buildPhases = (
+				BCAEADDF2983F2A100F69C6A /* Sources */,
+				BCAEADE02983F2A100F69C6A /* Frameworks */,
+				BCAEADE12983F2A100F69C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAEADE52983F2A100F69C6A /* PBXTargetDependency */,
+			);
+			name = BrownfieldFabioAppUITests;
+			productName = BrownfieldFabioAppUITests;
+			productReference = BCAEADE32983F2A100F69C6A /* BrownfieldFabioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAEADC12983F2A000F69C6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BCAEADC82983F2A000F69C6A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BCAEADD82983F2A100F69C6A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BCAEADC82983F2A000F69C6A;
+					};
+					BCAEADE22983F2A100F69C6A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BCAEADC82983F2A000F69C6A;
+					};
+				};
+			};
+			buildConfigurationList = BCAEADC42983F2A000F69C6A /* Build configuration list for PBXProject "BrownfieldFabioApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAEADC02983F2A000F69C6A;
+			productRefGroup = BCAEADCA2983F2A000F69C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAEADC82983F2A000F69C6A /* BrownfieldFabioApp */,
+				BCAEADD82983F2A100F69C6A /* BrownfieldFabioAppTests */,
+				BCAEADE22983F2A100F69C6A /* BrownfieldFabioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAEADC72983F2A000F69C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAEADD42983F2A100F69C6A /* Preview Assets.xcassets in Resources */,
+				BCAEADD12983F2A100F69C6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAEADD72983F2A100F69C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAEADE12983F2A100F69C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAEADC52983F2A000F69C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAEADCF2983F2A000F69C6A /* ContentView.swift in Sources */,
+				BCAEADCD2983F2A000F69C6A /* BrownfieldFabioAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAEADD52983F2A100F69C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAEADDE2983F2A100F69C6A /* BrownfieldFabioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAEADDF2983F2A100F69C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAEADEA2983F2A100F69C6A /* BrownfieldFabioAppUITestsLaunchTests.swift in Sources */,
+				BCAEADE82983F2A100F69C6A /* BrownfieldFabioAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAEADDB2983F2A100F69C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAEADC82983F2A000F69C6A /* BrownfieldFabioApp */;
+			targetProxy = BCAEADDA2983F2A100F69C6A /* PBXContainerItemProxy */;
+		};
+		BCAEADE52983F2A100F69C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAEADC82983F2A000F69C6A /* BrownfieldFabioApp */;
+			targetProxy = BCAEADE42983F2A100F69C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCAEADEB2983F2A100F69C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCAEADEC2983F2A100F69C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAEADEE2983F2A100F69C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrownfieldFabioApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabio.BrownfieldFabioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCAEADEF2983F2A100F69C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrownfieldFabioApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabio.BrownfieldFabioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCAEADF12983F2A100F69C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabio.BrownfieldFabioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrownfieldFabioApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrownfieldFabioApp";
+			};
+			name = Debug;
+		};
+		BCAEADF22983F2A100F69C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabio.BrownfieldFabioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrownfieldFabioApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrownfieldFabioApp";
+			};
+			name = Release;
+		};
+		BCAEADF42983F2A100F69C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabio.BrownfieldFabioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrownfieldFabioApp;
+			};
+			name = Debug;
+		};
+		BCAEADF52983F2A100F69C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabio.BrownfieldFabioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrownfieldFabioApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAEADC42983F2A000F69C6A /* Build configuration list for PBXProject "BrownfieldFabioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAEADEB2983F2A100F69C6A /* Debug */,
+				BCAEADEC2983F2A100F69C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAEADED2983F2A100F69C6A /* Build configuration list for PBXNativeTarget "BrownfieldFabioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAEADEE2983F2A100F69C6A /* Debug */,
+				BCAEADEF2983F2A100F69C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAEADF02983F2A100F69C6A /* Build configuration list for PBXNativeTarget "BrownfieldFabioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAEADF12983F2A100F69C6A /* Debug */,
+				BCAEADF22983F2A100F69C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAEADF32983F2A100F69C6A /* Build configuration list for PBXNativeTarget "BrownfieldFabioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAEADF42983F2A100F69C6A /* Debug */,
+				BCAEADF52983F2A100F69C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAEADC12983F2A000F69C6A /* Project object */;
+}
