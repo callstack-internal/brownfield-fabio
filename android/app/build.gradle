@@ -1,6 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
+    // react-native
+    id 'com.facebook.react'
+    //////
 }
 
 android {
@@ -30,10 +34,13 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
-
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
@@ -41,4 +48,15 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // react-native
+    implementation "com.facebook.react:react-android"
+    implementation "com.facebook.react:hermes-android"
+    //////
 }
+
+// react-native
+// FIXME: Not working when building. See settings.gradle file.
+// apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle")
+// applyNativeModulesAppBuildGradle(project)
+//////
