@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
   rootContainer: {
     flex: 1,
     justifyContent: 'center',
+    alignItems: 'center',
     padding: 20,
   },
 });
