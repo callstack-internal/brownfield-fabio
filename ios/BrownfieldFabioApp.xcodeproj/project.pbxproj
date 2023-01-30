@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14D696C05A1C4EA10BFFBABF /* libPods-BrownfieldFabioApp-BrownfieldFabioAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7B89D9A333100C5C32F9CE /* libPods-BrownfieldFabioApp-BrownfieldFabioAppUITests.a */; };
 		BC96F98D29882C4500DAF812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F98C29882C4500DAF812 /* AppDelegate.swift */; };
 		BC96F98F29882C4500DAF812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F98E29882C4500DAF812 /* SceneDelegate.swift */; };
 		BC96F99129882C4500DAF812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F99029882C4500DAF812 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		BC96F9A429882C4600DAF812 /* BrownfieldFabioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F9A329882C4600DAF812 /* BrownfieldFabioAppTests.swift */; };
 		BC96F9AE29882C4600DAF812 /* BrownfieldFabioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F9AD29882C4600DAF812 /* BrownfieldFabioAppUITests.swift */; };
 		BC96F9B029882C4600DAF812 /* BrownfieldFabioAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F9AF29882C4600DAF812 /* BrownfieldFabioAppUITestsLaunchTests.swift */; };
+		D36B224B8CD7890BEF5A58B7 /* libPods-BrownfieldFabioApp-BrownfieldFabioAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AD2E6077E78609F35F510 /* libPods-BrownfieldFabioApp-BrownfieldFabioAppTests.a */; };
+		F89B9D9328D64592E9AC80DC /* libPods-BrownfieldFabioApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C8D670FD88BEB8C83DE1B7 /* libPods-BrownfieldFabioApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DC7A7229F71BC58DAFAF577 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.release.xcconfig"; path = "Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		430204B163F84BE923F5D201 /* Pods-BrownfieldFabioApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldFabioApp.release.xcconfig"; path = "Target Support Files/Pods-BrownfieldFabioApp/Pods-BrownfieldFabioApp.release.xcconfig"; sourceTree = "<group>"; };
+		5101943C70D8D43C97753582 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E7B89D9A333100C5C32F9CE /* libPods-BrownfieldFabioApp-BrownfieldFabioAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrownfieldFabioApp-BrownfieldFabioAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D35C4092C3B09B33F39A69 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		646AD2E6077E78609F35F510 /* libPods-BrownfieldFabioApp-BrownfieldFabioAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrownfieldFabioApp-BrownfieldFabioAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BE037C6843670B1D8CDD41 /* Pods-BrownfieldFabioApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldFabioApp.debug.xcconfig"; path = "Target Support Files/Pods-BrownfieldFabioApp/Pods-BrownfieldFabioApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BC96F98929882C4500DAF812 /* BrownfieldFabioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrownfieldFabioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC96F98C29882C4500DAF812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC96F98E29882C4500DAF812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		BC96F9A929882C4600DAF812 /* BrownfieldFabioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrownfieldFabioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC96F9AD29882C4600DAF812 /* BrownfieldFabioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownfieldFabioAppUITests.swift; sourceTree = "<group>"; };
 		BC96F9AF29882C4600DAF812 /* BrownfieldFabioAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownfieldFabioAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1C8D670FD88BEB8C83DE1B7 /* libPods-BrownfieldFabioApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrownfieldFabioApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDA2F33B7979D8BACFDAAC9 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89B9D9328D64592E9AC80DC /* libPods-BrownfieldFabioApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36B224B8CD7890BEF5A58B7 /* libPods-BrownfieldFabioApp-BrownfieldFabioAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D696C05A1C4EA10BFFBABF /* libPods-BrownfieldFabioApp-BrownfieldFabioAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38F226C3884C15983C9B872C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70BE037C6843670B1D8CDD41 /* Pods-BrownfieldFabioApp.debug.xcconfig */,
+				430204B163F84BE923F5D201 /* Pods-BrownfieldFabioApp.release.xcconfig */,
+				61D35C4092C3B09B33F39A69 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.debug.xcconfig */,
+				3DC7A7229F71BC58DAFAF577 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.release.xcconfig */,
+				5101943C70D8D43C97753582 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.debug.xcconfig */,
+				FFDA2F33B7979D8BACFDAAC9 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BC96F98029882C4500DAF812 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				BC96F9A229882C4600DAF812 /* BrownfieldFabioAppTests */,
 				BC96F9AC29882C4600DAF812 /* BrownfieldFabioAppUITests */,
 				BC96F98A29882C4500DAF812 /* Products */,
+				38F226C3884C15983C9B872C /* Pods */,
+				DDFB903C9093A10A965474D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +158,16 @@
 			path = BrownfieldFabioAppUITests;
 			sourceTree = "<group>";
 		};
+		DDFB903C9093A10A965474D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8D670FD88BEB8C83DE1B7 /* libPods-BrownfieldFabioApp.a */,
+				646AD2E6077E78609F35F510 /* libPods-BrownfieldFabioApp-BrownfieldFabioAppTests.a */,
+				5E7B89D9A333100C5C32F9CE /* libPods-BrownfieldFabioApp-BrownfieldFabioAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC96F9B329882C4600DAF812 /* Build configuration list for PBXNativeTarget "BrownfieldFabioApp" */;
 			buildPhases = (
+				7A632F57558D9A6EFB8DAF4F /* [CP] Check Pods Manifest.lock */,
 				BC96F98529882C4500DAF812 /* Sources */,
 				BC96F98629882C4500DAF812 /* Frameworks */,
 				BC96F98729882C4500DAF812 /* Resources */,
+				E739153F6A61DF862BC682BE /* [CP] Embed Pods Frameworks */,
+				38264E5FBF1FAA2B5F584243 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC96F9B629882C4600DAF812 /* Build configuration list for PBXNativeTarget "BrownfieldFabioAppTests" */;
 			buildPhases = (
+				D02491E06059149381BC4C16 /* [CP] Check Pods Manifest.lock */,
 				BC96F99B29882C4600DAF812 /* Sources */,
 				BC96F99C29882C4600DAF812 /* Frameworks */,
 				BC96F99D29882C4600DAF812 /* Resources */,
+				37899FDF7EC04FD4E4370B59 /* [CP] Embed Pods Frameworks */,
+				1B5B58BC6F1B3B7D1118AACB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC96F9B929882C4600DAF812 /* Build configuration list for PBXNativeTarget "BrownfieldFabioAppUITests" */;
 			buildPhases = (
+				3217BE1AD209BC007218959C /* [CP] Check Pods Manifest.lock */,
 				BC96F9A529882C4600DAF812 /* Sources */,
 				BC96F9A629882C4600DAF812 /* Frameworks */,
 				BC96F9A729882C4600DAF812 /* Resources */,
+				02F78A119D82739566FC2C5A /* [CP] Embed Pods Frameworks */,
+				0BAD49D0D8CD15C50A21548B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +303,177 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02F78A119D82739566FC2C5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BAD49D0D8CD15C50A21548B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B5B58BC6F1B3B7D1118AACB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3217BE1AD209BC007218959C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37899FDF7EC04FD4E4370B59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38264E5FBF1FAA2B5F584243 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp/Pods-BrownfieldFabioApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp/Pods-BrownfieldFabioApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp/Pods-BrownfieldFabioApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A632F57558D9A6EFB8DAF4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrownfieldFabioApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D02491E06059149381BC4C16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrownfieldFabioApp-BrownfieldFabioAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E739153F6A61DF862BC682BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp/Pods-BrownfieldFabioApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp/Pods-BrownfieldFabioApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrownfieldFabioApp/Pods-BrownfieldFabioApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC96F98529882C4500DAF812 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -322,7 +543,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -352,6 +573,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -370,6 +592,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -382,7 +605,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -412,6 +635,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -423,6 +647,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -432,6 +657,7 @@
 		};
 		BC96F9B429882C4600DAF812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BE037C6843670B1D8CDD41 /* Pods-BrownfieldFabioApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +685,7 @@
 		};
 		BC96F9B529882C4600DAF812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430204B163F84BE923F5D201 /* Pods-BrownfieldFabioApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +713,7 @@
 		};
 		BC96F9B729882C4600DAF812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D35C4092C3B09B33F39A69 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +733,7 @@
 		};
 		BC96F9B829882C4600DAF812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC7A7229F71BC58DAFAF577 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +753,7 @@
 		};
 		BC96F9BA29882C4600DAF812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5101943C70D8D43C97753582 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +771,7 @@
 		};
 		BC96F9BB29882C4600DAF812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDA2F33B7979D8BACFDAAC9 /* Pods-BrownfieldFabioApp-BrownfieldFabioAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
